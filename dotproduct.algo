@@ -25,7 +25,7 @@ BEGIN
     UNTIL (n<2)
     //   for n vectors 
     FOR i FROM 1 TO n STEP 1  DO
-        Write("Enter the vector N°", i);
+        Write(" vector N°", i);
         FOR j FROM 0 TO 1 STEP 1  DO
         Read(v[j]);
         END_FOR
@@ -46,9 +46,9 @@ BEGIN
         END_IF
     END_FOR
     IF (test) THEN
-        Write("There are two vectors Orthogonal!");
+        Write("Orthogonal");
     ELSE
-        Write("All vectors are not Orthogonal!")
+        Write("not Orthogonal")
     END_IF
 END
 // Using Function
@@ -74,7 +74,7 @@ BEGIN
     UNTIL (n<2)
     //    using hash tab
     FOR i FROM 1 TO n STEP 1  DO
-        Write("Enter the vector N°", i);
+        Write(" vector N°", i);
         FOR j FROM 0 TO 1 STEP 1  DO
         Read(v[j]);
         END_FOR
@@ -95,8 +95,8 @@ BEGIN
         END_IF
     END_FOR
     IF (test) THEN
-        Write("There are two vectors Orthogonal!");
+        Write("Orthogonal");
     ELSE
-        Write("All vectors are not Orthogonal!")
+        Write("not Orthogonal!")
     END_IF
 END
